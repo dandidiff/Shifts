@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="Analisi Turnazioni vs Vendite", layout="wide")
 
-st.title("Analisi Turnazioni vs Vendite")
+st.title("Streamlit Analisi Turnazioni vs Vendite")
 
 # Carica i dati di vendita storici da file CSV
 sales_df = pd.read_csv('vendite.csv')
